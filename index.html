@@ -1,84 +1,57 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
-<head>
-  <link href="https://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.110.0">
-
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>My blog</title>
-  <meta name="description" content="" />
-
-  
-  <link type="text/css" rel="stylesheet" href="https://github-wang9527.github.iocss/print.css" media="print">
-  <link type="text/css" rel="stylesheet" href="https://github-wang9527.github.iocss/poole.css">
-  <link type="text/css" rel="stylesheet" href="https://github-wang9527.github.iocss/syntax.css">
-  <link type="text/css" rel="stylesheet" href="https://github-wang9527.github.iocss/hyde.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+<html>
+  <head>
+	<meta name="generator" content="Hugo 0.102.3" /><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
 
 
-  
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/favicon.png">
 
-  
-  <link href="https://github-wang9527.github.io/index.xml" rel="alternate" type="application/rss+xml" title="My blog" />
-  
+<title>My blog</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+
+<link rel="stylesheet" href="/scss/style.min.d0921324c5ffcbf68f863d8e675739a6b1da644a80ab55151486c5dbeed76d78.css">
 </head>
+  <body>
+    <header class="header">
+  <div class="header__title">
+    <a href="https://github-wang9527.github.io">My blog</a>
+  </div>
+  <div class="headerNav">
+    <ul class="headerNav__items">
+      <li>
+        <a href="https://github-wang9527.github.io/search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
 
-  <body class=" ">
-  <aside class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <a href="https://github-wang9527.github.io"><h1>My blog</h1></a>
-      <p class="lead">
-      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
-      </p>
+    <div class="container">
+      <main class="main">
+        <section class="profile">
+</section>
+
+  
+
+  <section class="article-list">
+    
+  </section>
+
+
+          
+      </main><footer class="footer">
+  <span>&copy; 2023 <a href="https://github-wang9527.github.io">My blog</a></span>
+</footer>
+
     </div>
 
-    <nav>
-      <ul class="sidebar-nav">
-        <li><a href="https://github-wang9527.github.io">Home</a> </li>
-        
-      </ul>
-    </nav>
-
-    <p>&copy; 2023. All rights reserved. </p>
-  </div>
-</aside>
-
-    <main class="content container">
-    <div class="posts">
-<article class="post">
-  <h1 class="post-title">
-    <a href="https://github-wang9527.github.io/posts/01.git%E9%85%8D%E7%BD%AE%E5%92%8C%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/">git 常用命令</a>
-  </h1>
-  <time datetime="2023-02-18T21:58:04&#43;0800" class="post-date">Sat, Feb 18, 2023</time>
-  章节目录 [TOC]
-一、git的安装和配置 (配置到gerrit) 1. 安装git 安装git后，常规的clone和checkout的操作已经可以使用。
-sudo apt install git 2. 生成密钥，添加到github/gerrit 配置完账号后，可以进行commit操作
-添加密钥后，可以进行push操作
-# github git config --global user.name &#34;wangbin&#34; git config --global user.email &#34;123456@qq.com&#34; ssh-keygen -t rsa -C &#34;123456@qq.com&#34; cat ~/.ssh/id_rsa.pub # 添加秘钥到github gerrit 3. 全局配置 git config --global core.quotepath false # git status正常显示中文 git config --global core.editor vi # 修改 git编辑器为vi # 设置gitnore git config --global core.excludesfile ~/wang/01.work-ln/wbash/gitignore .gitignore文件内容如下 # git config --global core.excludesfile ~/wang/04.note.dir/gitignore # 命令设置完后，全局起作用 /.
-  
-  <div class="read-more-link">
-    <a href="/posts/01.git%E9%85%8D%E7%BD%AE%E5%92%8C%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/">Read More…</a>
-  </div>
-  
-</article><article class="post">
-  <h1 class="post-title">
-    <a href="https://github-wang9527.github.io/posts/hello/">Hello</a>
-  </h1>
-  <time datetime="2023-02-18T21:58:04&#43;0800" class="post-date">Sat, Feb 18, 2023</time>
-  hhh 
-  
-</article>
-</div>
-    </main>
-
-    
-      
-    
   </body>
 </html>
