@@ -1,101 +1,84 @@
 <!DOCTYPE html>
-<html lang="en-us">
-	<head>
-    <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.110.0">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My blog</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://github-wang9527.github.iocss/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://github-wang9527.github.iocss/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://github-wang9527.github.iocss/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://github-wang9527.github.iocss/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
 
 
-<meta name="generator" content="Hugo 0.110.0">
-<title>My blog &middot; My blog</title>
-<link rel="shortcut icon" href="https://github-wang9527.github.io/images/favicon.ico">
-<link rel="stylesheet" href="https://github-wang9527.github.io/css/style.css">
-<link rel="stylesheet" href="https://github-wang9527.github.io/css/highlight.css">
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
 
+  
+  <link href="https://github-wang9527.github.io/index.xml" rel="alternate" type="application/rss+xml" title="My blog" />
+  
+</head>
 
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://github-wang9527.github.io"><h1>My blog</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
 
-<link rel="stylesheet" href="https://github-wang9527.github.io/css/monosocialiconsfont.css">
-
-
-
-
-<meta property="og:title" content="My blog" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://github-wang9527.github.io/" />
-
-
-<meta itemprop="name" content="My blog">
-<meta itemprop="description" content="">
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My blog"/>
-<meta name="twitter:description" content=""/>
-
-
-    </head>
-<body>
-    <nav class="main-nav">
-	
-
-	
-
-	
-</nav>
-
-    <section id="wrapper">
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://github-wang9527.github.io">Home</a> </li>
         
-	<div class="profile">
-    <section id="wrapper">
-        <header id="header">
-            <a href="https://github-wang9527.github.io/about">
-                <img id="avatar" class="2x" src="https://github-wang9527.github.io/images/avatar.png"/>
-            </a>
-            <h1></h1>
-            <h2></h2>
-        </header>
-    </section>
+      </ul>
+    </nav>
+
+    <p>&copy; 2023. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="posts">
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://github-wang9527.github.io/posts/01.git%E9%85%8D%E7%BD%AE%E5%92%8C%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/">git 常用命令</a>
+  </h1>
+  <time datetime="2023-02-18T21:58:04&#43;0800" class="post-date">Sat, Feb 18, 2023</time>
+  章节目录 [TOC]
+一、git的安装和配置 (配置到gerrit) 1. 安装git 安装git后，常规的clone和checkout的操作已经可以使用。
+sudo apt install git 2. 生成密钥，添加到github/gerrit 配置完账号后，可以进行commit操作
+添加密钥后，可以进行push操作
+# github git config --global user.name &#34;wangbin&#34; git config --global user.email &#34;123456@qq.com&#34; ssh-keygen -t rsa -C &#34;123456@qq.com&#34; cat ~/.ssh/id_rsa.pub # 添加秘钥到github gerrit 3. 全局配置 git config --global core.quotepath false # git status正常显示中文 git config --global core.editor vi # 修改 git编辑器为vi # 设置gitnore git config --global core.excludesfile ~/wang/01.work-ln/wbash/gitignore .gitignore文件内容如下 # git config --global core.excludesfile ~/wang/04.note.dir/gitignore # 命令设置完后，全局起作用 /.
+  
+  <div class="read-more-link">
+    <a href="/posts/01.git%E9%85%8D%E7%BD%AE%E5%92%8C%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/">Read More…</a>
+  </div>
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://github-wang9527.github.io/posts/hello/">Hello</a>
+  </h1>
+  <time datetime="2023-02-18T21:58:04&#43;0800" class="post-date">Sat, Feb 18, 2023</time>
+  hhh 
+  
+</article>
 </div>
+    </main>
 
-
-        
-	<ul id="post-list">
     
-        <li>
-            <a href='https://github-wang9527.github.io/posts/01.git%E9%85%8D%E7%BD%AE%E5%92%8C%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/'><aside class="dates">Feb 18 2023</aside></a>
-            <a href='https://github-wang9527.github.io/posts/01.git%E9%85%8D%E7%BD%AE%E5%92%8C%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/'>git 常用命令<h2></h2></a>
-        </li>
+      
     
-        <li>
-            <a href='https://github-wang9527.github.io/posts/hello/'><aside class="dates">Feb 18 2023</aside></a>
-            <a href='https://github-wang9527.github.io/posts/hello/'>Hello<h2></h2></a>
-        </li>
-    
-</ul>
-
-	<nav id="post-nav">
-    
-</nav>
-
-
-
-        <footer id="footer">
-    
-    <p class="small">
-    
-        © Copyright 2023 
-    
-    </p>
-</footer>
-
-    </section>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://github-wang9527.github.io/js/main.js"></script>
-<script src="https://github-wang9527.github.io/js/highlight.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-
-
-
-
-
-</body>
+  </body>
 </html>
